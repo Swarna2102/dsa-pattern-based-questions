@@ -4,3 +4,24 @@ A set stores only unique elements
 It stores elements in sorted order automatically (ascending)
 
 It does not allow duplicates
+
+//SYNTAX
+#include <set>
+set<int> s;
+
+//OPERATIONS IN A SET
+
+insertion- s.insert(10);
+delete- s.erase(10);
+search- s.find(10)!=s.end();
+size-s.size();
+print- using loop for(auto x:s)
+
+//UNORDERED SET
+same as set but not sorted
+
+//SYNTAX
+#include <unordered_set>
+unordered_set<int> us;
+
+
