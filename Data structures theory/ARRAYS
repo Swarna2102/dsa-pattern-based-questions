@@ -1,0 +1,22 @@
+int []={1,2,3,4}  size is automatically detected i.e 4
+int [5]; //default garbage value
+int arr[5] = {1,2,3};  // first 3 initialized, rest 0
+
+//INPUT KESE LE
+
+toh dekh bhai ,ek for loop chala de usme cin>>arr[i] krde ,user se input lelenge fir
+
+//OUTPUT KESE PRINT KRE
+
+toh dekh bhai ,for loop ke andr cout krde
+NOTE:- agr size n hai toh arr[n] wale elmeent ko hum access nhi krskte kyuki it is out of bound.
+
+//SIZE OF AN ARRAY KESE NIKALE
+int arr[5];
+int size = sizeof(arr) / sizeof(arr[0]);   // total bytes / one element size
+
+//USE SIZEOF(ARR) 
+
+//IN ARRAYS INSERTION AND DELETION ARE COMPLEX -SO USE VECTOR FOR THAT 
+
+
