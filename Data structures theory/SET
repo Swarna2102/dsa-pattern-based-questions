@@ -24,4 +24,5 @@ same as set but not sorted
 #include <unordered_set>
 unordered_set<int> us;
 
+s.end() - iska matlab hota hai ki not found (we have reached the end but the element is not present,it is generally used with the find)
 
